@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 081fdf7bbc6817342ad645e802727664
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3564255483391217305
+    second: LevelArrows_0
+  - first:
+      213: 8101926347234933458
+    second: LevelArrows_1
+  - first:
+      213: -9199750074227369200
+    second: LevelArrows_2
+  - first:
+      213: 7399902873267756097
+    second: LevelArrows_3
+  - first:
+      213: -6456201562123227320
+    second: LevelArrows_4
+  - first:
+      213: 3540650559738936906
+    second: LevelArrows_5
+  - first:
+      213: 888129362643834548
+    second: LevelArrows_6
+  - first:
+      213: 4300515179190348960
+    second: LevelArrows_7
+  - first:
+      213: 1577160055850117515
+    second: LevelArrows_8
+  - first:
+      213: -4985154005763759601
+    second: LevelArrows_9
+  - first:
+      213: 4413535565450961184
+    second: LevelArrows_10
+  - first:
+      213: -7874286509949840463
+    second: LevelArrows_11
+  - first:
+      213: 40124138007543859
+    second: LevelArrows_12
+  - first:
+      213: 6880760936409156262
+    second: LevelArrows_13
+  - first:
+      213: 5119819279453635247
+    second: LevelArrows_14
+  - first:
+      213: -5429178465114833007
+    second: LevelArrows_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelArrows_0
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1282
+        width: 179
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7617ab7a588398ec0800000000000000
+      internalID: -3564255483391217305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_1
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 1253
+        width: 126
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daf0534613df6070800000000000000
+      internalID: 8101926347234933458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_2
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1032
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bdd43cc0ce35080800000000000000
+      internalID: -9199750074227369200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_3
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 1069
+        width: 93
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c5485f47cb1b660800000000000000
+      internalID: 7399902873267756097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_4
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 1068
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84fa25bb2e6f666a0800000000000000
+      internalID: -6456201562123227320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_5
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1042
+        width: 79
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ef607cceae22130800000000000000
+      internalID: 3540650559738936906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_6
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 935
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6daf623f4435c00800000000000000
+      internalID: 888129362643834548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_7
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 478
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ace0d635cf7eab30800000000000000
+      internalID: 4300515179190348960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_8
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 312
+        width: 40
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89a1e2f6b233e510800000000000000
+      internalID: 1577160055850117515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_9
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 375
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02e5df18dc21dab0800000000000000
+      internalID: -4985154005763759601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_10
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 313
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021e14e7637004d30800000000000000
+      internalID: 4413535565450961184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_11
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 185
+        width: 70
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b31ac2932ae8b290800000000000000
+      internalID: -7874286509949840463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_12
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 239
+        width: 65
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330cbd0e0bc8e8000800000000000000
+      internalID: 40124138007543859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_13
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 192
+        width: 46
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa4d07ad9f5d7f50800000000000000
+      internalID: 6880760936409156262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_14
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 174
+        width: 134
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2c70a32804d0740800000000000000
+      internalID: 5119819279453635247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelArrows_15
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 121
+        width: 121
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f31a473fea7a4b0800000000000000
+      internalID: -5429178465114833007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LevelArrows_0: -3564255483391217305
+      LevelArrows_1: 8101926347234933458
+      LevelArrows_10: 4413535565450961184
+      LevelArrows_11: -7874286509949840463
+      LevelArrows_12: 40124138007543859
+      LevelArrows_13: 6880760936409156262
+      LevelArrows_14: 5119819279453635247
+      LevelArrows_15: -5429178465114833007
+      LevelArrows_2: -9199750074227369200
+      LevelArrows_3: 7399902873267756097
+      LevelArrows_4: -6456201562123227320
+      LevelArrows_5: 3540650559738936906
+      LevelArrows_6: 888129362643834548
+      LevelArrows_7: 4300515179190348960
+      LevelArrows_8: 1577160055850117515
+      LevelArrows_9: -4985154005763759601
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

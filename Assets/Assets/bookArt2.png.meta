@@ -1,0 +1,268 @@
+fileFormatVersion: 2
+guid: 7d79d9d525845674aac1099200bfaaa8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4957647615679957624
+    second: bookArt2_0
+  - first:
+      213: -4541669528053156574
+    second: bookArt2_1
+  - first:
+      213: 8288327377188761660
+    second: bookArt2_2
+  - first:
+      213: 3123014260548165854
+    second: bookArt2_3
+  - first:
+      213: -3387882119899595096
+    second: bookArt2_4
+  - first:
+      213: 1565718648425175982
+    second: bookArt2_5
+  - first:
+      213: -2376355591642245763
+    second: bookArt2_6
+  - first:
+      213: -649001655710740888
+    second: bookArt2_7
+  - first:
+      213: 7247686722907235768
+    second: bookArt2_8
+  - first:
+      213: 4224718166209216650
+    second: bookArt2_9
+  - first:
+      213: -2297294477230998727
+    second: bookArt2_10
+  - first:
+      213: -6272938946357667220
+    second: bookArt2_11
+  - first:
+      213: -3295917345199210127
+    second: bookArt2_12
+  - first:
+      213: 5454105193586316083
+    second: bookArt2_13
+  - first:
+      213: -5975585716423114437
+    second: bookArt2_14
+  - first:
+      213: -9222469177576619369
+    second: bookArt2_15
+  - first:
+      213: -2131706684266898574
+    second: bookArt2_16
+  - first:
+      213: 8008775189204380427
+    second: bookArt2_17
+  - first:
+      213: 1139353895764981774
+    second: bookArt2_18
+  - first:
+      213: -7324330463029225479
+    second: bookArt2_19
+  - first:
+      213: 3052570585846195725
+    second: bookArt2_20
+  - first:
+      213: 7118846626566572146
+    second: bookArt2_21
+  - first:
+      213: -1929604699366092077
+    second: bookArt2_22
+  - first:
+      213: 7702003804795922290
+    second: bookArt2_23
+  - first:
+      213: 5164462400211021436
+    second: bookArt2_24
+  - first:
+      213: -916325267275407490
+    second: bookArt2_25
+  - first:
+      213: 7088146384373782260
+    second: bookArt2_26
+  - first:
+      213: 4413287432600177302
+    second: bookArt2_27
+  - first:
+      213: 7759898297496454543
+    second: bookArt2_28
+  - first:
+      213: 8158357859736404814
+    second: bookArt2_29
+  - first:
+      213: -1232732458524115038
+    second: bookArt2_30
+  - first:
+      213: 1618712730363496956
+    second: bookArt2_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bookArt2_14
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 64
+        width: 1313
+        height: 1277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31c3bf6374721da0800000000000000
+      internalID: -5975585716423114437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bookArt2_0: 4957647615679957624
+      bookArt2_1: -4541669528053156574
+      bookArt2_10: -2297294477230998727
+      bookArt2_11: -6272938946357667220
+      bookArt2_12: -3295917345199210127
+      bookArt2_13: 5454105193586316083
+      bookArt2_14: -5975585716423114437
+      bookArt2_15: -9222469177576619369
+      bookArt2_16: -2131706684266898574
+      bookArt2_17: 8008775189204380427
+      bookArt2_18: 1139353895764981774
+      bookArt2_19: -7324330463029225479
+      bookArt2_2: 8288327377188761660
+      bookArt2_20: 3052570585846195725
+      bookArt2_21: 7118846626566572146
+      bookArt2_22: -1929604699366092077
+      bookArt2_23: 7702003804795922290
+      bookArt2_24: 5164462400211021436
+      bookArt2_25: -916325267275407490
+      bookArt2_26: 7088146384373782260
+      bookArt2_27: 4413287432600177302
+      bookArt2_28: 7759898297496454543
+      bookArt2_29: 8158357859736404814
+      bookArt2_3: 3123014260548165854
+      bookArt2_30: -1232732458524115038
+      bookArt2_31: 1618712730363496956
+      bookArt2_32: -1052787001
+      bookArt2_4: -3387882119899595096
+      bookArt2_5: 1565718648425175982
+      bookArt2_6: -2376355591642245763
+      bookArt2_7: -649001655710740888
+      bookArt2_8: 7247686722907235768
+      bookArt2_9: 4224718166209216650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

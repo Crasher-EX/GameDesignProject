@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     public float jumpHeight;
     public float groundDistance;
     public bool isGrounded;
+    public bool isJumping;
+
+    public Animator anim;
 
     public Transform groundCheckObj;
 
@@ -21,17 +24,19 @@ public class PlayerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+      
     }
 
     // Update is called once per frame
     void Update()
     {
+        anim.SetBool("isJumping", isJumping);
 
         GroundCheck();
 
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
+            
             Jump();
         }
     }
@@ -49,11 +54,17 @@ public class PlayerController : MonoBehaviour
         {
             Debug.Log("Raycast found something");
             isGrounded = true;
+
+            if (isJumping == true)
+            {
+                isJumping = false;
+            }
         }
         else
         {
             Debug.Log("Raycast did not find something");
             isGrounded = false;
+            isJumping = true;
         }
     }
 }
