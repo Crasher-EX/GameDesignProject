@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
 
     public LayerMask layerMask;
 
+    [SerializeField] GameManager gameManger;
+
 
     private void Awake()
     {
@@ -36,17 +38,19 @@ public class PlayerController : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
-            
             Jump();
         }
     }
 
-
+    //JUMP SCRIPT
     void Jump()
     {
         rb.AddForce(Vector2.up * jumpHeight);
     }
 
+
+
+    //CHECKS IF GROUND IS UNDER PLAYER, IF YES THEN IS GROUNDED = TRUE ALLOWING PLAYING TO JUMP.
     void GroundCheck()
     {
         RaycastHit2D hit = Physics2D.Raycast(groundCheckObj.position, Vector2.down, groundDistance, layerMask);
@@ -65,6 +69,16 @@ public class PlayerController : MonoBehaviour
             Debug.Log("Raycast did not find something");
             isGrounded = false;
             isJumping = true;
+        }
+    }
+
+
+    //DAMAGE COLLISION SCRIPT: detects collision with damage brick then activates damage script in GameManager
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("TouchDamage"))
+        {
+            gameManger.playerDamaged();
         }
     }
 }

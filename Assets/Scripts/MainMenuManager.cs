@@ -41,6 +41,11 @@ public class MainMenuManager : MonoBehaviour
         levelSelectionPage1.SetActive(true);
     }
 
+    public void quitButton() //Play button functions
+    {
+        Application.Quit();
+    }
+
 
     //-------------LEVEL SELECTION BUTTONS---------------
     public void neighborhoodButton() //loads neighboorhood game scene
