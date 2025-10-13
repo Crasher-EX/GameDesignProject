@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float groundDistance;
     public bool isGrounded;
     public bool isJumping;
+    public bool boomerangThrown;
 
     public Animator anim;
 
@@ -16,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask layerMask;
 
     [SerializeField] GameManager gameManger;
+    [SerializeField] GameObject boomerang;
 
 
     private void Awake()
@@ -40,6 +42,12 @@ public class PlayerController : MonoBehaviour
         {
             Jump();
         }
+        if (Input.GetKeyDown(KeyCode.F) && boomerangThrown == false)
+        {
+            boomerangThrow();
+            boomerangThrown = true;
+        }
+
     }
 
     //JUMP SCRIPT
@@ -70,6 +78,11 @@ public class PlayerController : MonoBehaviour
             isGrounded = false;
             isJumping = true;
         }
+    }
+
+    void boomerangThrow()
+    {
+        Instantiate(boomerang, transform);
     }
 
 

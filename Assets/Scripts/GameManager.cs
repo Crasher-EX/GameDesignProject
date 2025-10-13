@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,13 +9,19 @@ public class GameManager : MonoBehaviour
     public GameObject AliveHeart1;
     public GameObject AliveHeart2;
     public GameObject AliveHeart3;
-    public GameObject DeadHeart1;
-    public GameObject DeadHeart2;
-    public GameObject DeadHeart3;
+    public GameObject player;
 
     public bool gameActive;
+    public bool playerAlive;
     public bool playerImmunity;
+    public bool playerDamagedBool;
     public float immunityTime;
+
+    public Animator playerAnim;
+    public Animator deadMenu;
+
+    [SerializeField] string neighboorhoodScene;
+    [SerializeField] string mainMenu;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,13 +33,16 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+      playerAnim.SetBool("isDamaged", playerDamagedBool); //Connects "playerDamagedBool" from this script to the animators "isDamaged" bool
+      deadMenu.SetBool("playerAlive", playerAlive); //Connects playerAlive bool to the dead menu pop up bool
     }
+
     //Handles the wait timer before turning of players immunity
     IEnumerator immunityLengthTimer()
     {
         yield return new WaitForSeconds(immunityTime);
         playerImmunity = false;
+        playerDamagedBool = false;
     }
     
 
@@ -43,6 +53,7 @@ public class GameManager : MonoBehaviour
         {
             //gives player temporary immunity and turning on immunity timer
             playerImmunity = true;
+            playerDamagedBool = true;
             StartCoroutine(immunityLengthTimer());
 
             if (playerHealth == 1)
@@ -61,12 +72,27 @@ public class GameManager : MonoBehaviour
                 playerHealth -= 1;
                 AliveHeart1.SetActive(false);
             }
-            
+        
         }
     }
 
     void playerDeath()
     {
+        playerAlive = false;
+        player.GetComponent<BoxCollider2D>().enabled = false; //makes player fall out of map
         Debug.Log("PLAYER HAS DIED");
+    }
+
+
+    //MENU BUTTONS - SCENE CHANGERS
+
+    public void playButton() //loads neighboorhood game scene
+    {
+        SceneManager.LoadScene(neighboorhoodScene);
+    }
+
+    public void quitButton() //loads neighboorhood game scene
+    {
+        SceneManager.LoadScene(mainMenu);
     }
 }
