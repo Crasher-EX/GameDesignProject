@@ -1,3 +1,6 @@
+using System;
+using System.Collections;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -9,10 +12,12 @@ public class PlayerController : MonoBehaviour
     public bool isGrounded;
     public bool isJumping;
     public bool boomerangThrown;
+    public float boomerangCooldown;
 
     public Animator anim;
 
     public Transform groundCheckObj;
+    public Transform boomerangThrowPos;
 
     public LayerMask layerMask;
 
@@ -45,7 +50,6 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.F) && boomerangThrown == false)
         {
             boomerangThrow();
-            boomerangThrown = true;
         }
 
     }
@@ -80,10 +84,23 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
+    // Boomerang spawning script
     void boomerangThrow()
     {
-        Instantiate(boomerang, transform);
+        Instantiate(boomerang, boomerangThrowPos.position, Quaternion.identity);
+        boomerangThrown = true;
+        StartCoroutine(boomerangCooldownTimer());
     }
+
+    // Boomerang destroying script
+    IEnumerator boomerangCooldownTimer()
+    {
+        yield return new WaitForSeconds(boomerangCooldown);
+        boomerangThrown = false;
+    }
+
+
 
 
     //DAMAGE COLLISION SCRIPT: detects collision with damage brick then activates damage script in GameManager
