@@ -9,6 +9,7 @@ public class MainMenuManager : MonoBehaviour
     public GameObject pageFlip;
     public GameObject mainMenuPage;
     public GameObject levelSelectionPage1;
+    public AudioSource buttonClickSFX;
 
     [SerializeField] string neighboorhoodScene;
 
@@ -39,17 +40,20 @@ public class MainMenuManager : MonoBehaviour
     {
         disableAllPages();
         levelSelectionPage1.SetActive(true);
+        buttonClickSFX.Play();
     }
 
     public void quitButton() //Play button functions
     {
         Application.Quit();
+        buttonClickSFX.Play();
     }
 
 
     //-------------LEVEL SELECTION BUTTONS---------------
     public void neighborhoodButton() //loads neighboorhood game scene
     {
+        buttonClickSFX.Play();
         SceneManager.LoadScene(neighboorhoodScene);
     }
 
@@ -60,6 +64,7 @@ public class MainMenuManager : MonoBehaviour
     {
         disableAllPages();
         mainMenuPage.SetActive(true);
+        buttonClickSFX.Play();
     }
 
     public void disableAllPages() //disables all pages

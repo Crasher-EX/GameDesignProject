@@ -4,6 +4,7 @@ public class SnakeDeath : MonoBehaviour
 {
     public GameObject snake;
     public GameObject snakeDamageBox;
+    public AudioSource snakeDeathSFX;
     public Animator snakeAnim;
     public bool snakeDead;
 
@@ -27,6 +28,7 @@ public class SnakeDeath : MonoBehaviour
             snake.GetComponent<Rigidbody2D>().gravityScale = 1; //makes snake have gravity to fall out of map();
             snakeDead = true;
             Destroy(snakeDamageBox);
+            snakeDeathSFX.Play();
         }
     }
 }

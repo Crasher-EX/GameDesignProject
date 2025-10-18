@@ -14,6 +14,8 @@ public class PlayerController : MonoBehaviour
     public bool boomerangThrown;
     public float boomerangCooldown;
 
+    public AudioSource jumpSFX;
+
     public Animator anim;
 
     public Transform groundCheckObj;
@@ -58,6 +60,7 @@ public class PlayerController : MonoBehaviour
     void Jump()
     {
         rb.AddForce(Vector2.up * jumpHeight);
+        jumpSFX.Play();
     }
 
 

@@ -11,6 +11,11 @@ public class GameManager : MonoBehaviour
     public GameObject AliveHeart3;
     public GameObject player;
 
+    public AudioSource buttonClickSFX;
+    public AudioSource levelMusic;
+    public AudioSource playerHurtSFX;
+    public AudioSource playerDeathSFX;
+
     public bool gameActive;
     public bool playerAlive;
     public bool playerImmunity;
@@ -61,16 +66,19 @@ public class GameManager : MonoBehaviour
                 playerHealth -= 1;
                 AliveHeart3.SetActive(false);
                 playerDeath();
+                playerDeathSFX.Play();
             }
             else if (playerHealth == 2)
             {
                 playerHealth -= 1;
                 AliveHeart2.SetActive(false);
+                playerHurtSFX.Play();
             }
             else //(playerHealth == 3)
             {
                 playerHealth -= 1;
                 AliveHeart1.SetActive(false);
+                playerHurtSFX.Play();
             }
         
         }
@@ -81,6 +89,7 @@ public class GameManager : MonoBehaviour
         playerAlive = false;
         player.GetComponent<BoxCollider2D>().enabled = false; //makes player fall out of map
         Debug.Log("PLAYER HAS DIED");
+        levelMusic.Stop();
     }
 
 
@@ -89,10 +98,12 @@ public class GameManager : MonoBehaviour
     public void playButton() //loads neighboorhood game scene
     {
         SceneManager.LoadScene(neighboorhoodScene);
+        buttonClickSFX.Play();
     }
 
     public void quitButton() //loads neighboorhood game scene
     {
         SceneManager.LoadScene(mainMenu);
+        buttonClickSFX.Play();
     }
 }

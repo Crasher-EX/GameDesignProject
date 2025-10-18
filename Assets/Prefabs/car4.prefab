@@ -93,6 +93,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   snake: {fileID: 0}
   snakeDamageBox: {fileID: 0}
+  snakeDeathSFX: {fileID: 0}
   snakeAnim: {fileID: 0}
   snakeDead: 0
 --- !u!1 &5104346617484774296
